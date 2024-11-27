@@ -1,0 +1,219 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h1, h2, h3, h4 {
+    font-family: "Josefin Sans", sans-serif;
+  }
+  p, a {
+    font-family: "Roboto", sans-serif;
+  }
+  header {
+    background-color: #333; /* Customize as needed */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-icon a{
+    font-family: "Josefin Sans", sans-serif;;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  .logo-icon a:hover {
+    color: goldenrod;
+  }
+  .nav-links {
+    display: none; /* Hidden by default */
+    flex-direction: column;
+    gap: 10px;
+    background-color: #fff;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    padding: 10px 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-links a {
+    font-family: "Josefin Sans", sans-serif;;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    padding: 5px 0;
+  }
+
+  .nav-links a:hover {
+    color: goldenrod;
+    text-decoration: underline;
+  }
+  
+  .facebook-link {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center align for mobile */
+  }
+  
+  .facebook-link a {
+    text-align: center;
+    text-decoration: none;
+    color: #1877f2; /* Facebook blue color */
+    font-size: 1rem; /* Icon size optimized for mobile */
+    padding: 8px; /* Increased padding for better touch targets */
+    background-color: #e8f4ff; /* Light blue background */
+    border-radius: 20%;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .facebook-link a:hover {
+    background-color: #d6e9ff; /* Slightly darker on hover */
+    transform: scale(1.1); /* Subtle hover animation */
+  }
+  
+  /* Mobile menu toggle */
+  #menu-toggle {
+    display: none;
+  }
+  
+  .menu-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: block;
+  }
+  
+  /* When checkbox is checked, show nav-links */
+  #menu-toggle:checked ~ .nav-links {
+    display: flex;
+  }
+  
+  #menu-toggle:checked ~ .login-button {
+    display: block;
+  }
+  /* Hero Section */
+  /* Mobile-first styles */
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    background-color: #333;
+    color: white;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .content-width {
+    max-width: 90%;
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero a {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #333;
+    font-weight: bold;
+    background-color: goldenrod;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero a:hover {
+    background-color: #fff;
+  }
+  
+  .hero-img img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 15px;
+  }
+  
+  
+  /* Desktop styles */
+  @media (min-width: 768px) {
+    #menu-toggle,
+    .menu-icon {
+      display: none;
+    }
+  
+    .nav-links {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      position: static;
+      background: none;
+      box-shadow: none;
+      gap: 20px;
+    }
+  
+    .facebook-link {
+        justify-content: flex-end; /* Align to the right for larger screens */
+      }
+    
+      .facebook-link a {
+        font-size: 2rem; /* Larger icon for better visibility */
+        padding: 10px; /* Slightly larger padding for a more balanced look */
+        background-color: #f0f7ff; /* Adjusted background for desktop aesthetics */
+      }
+    
+      .facebook-link a:hover {
+        background-color: #e0efff; /* Softer hover effect for desktop */
+        transform: scale(1.15); /* Slightly larger scale on hover */
+      }
+      /* Hero Section */
+      .hero {
+        flex-direction: row;
+        text-align: left;
+        justify-content: space-between;
+        padding: 4rem;
+      }
+    
+      .content-width {
+        max-width: 50%;
+      }
+    
+      .hero h1 {
+        font-size: 3rem;
+      }
+    
+      .hero p {
+        font-size: 1.25rem;
+      }
+    
+      .hero-img img {
+        max-width: 500px;
+      }
+  }
+  
