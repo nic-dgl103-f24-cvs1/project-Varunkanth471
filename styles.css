@@ -523,7 +523,7 @@ header {
   display: flex;
   flex-wrap: wrap; /* Allow wrapping for smaller screens */
   justify-content: space-between; /* Space between sections */
-  align-items: flex-start; /* Align items at the top */
+  align-items: center; /* Align items at the top */
 }
 
 .footer-section {
@@ -564,6 +564,29 @@ header {
   margin-top: 20px;
   line-height: 1.5; /* Better readability */
 }
+
+/*  Video Section */
+
+.video {
+  text-align: center; /* Centers the text and video within the section */
+  padding: 20px;
+  margin: 0 auto; /* Centers the section on the page */
+  max-width: 800px; /* Limits the width for proper alignment */
+}
+
+.video h2 {
+  font-size: 24px;
+  color: #f5c7a9; /* Adjust the heading color */
+  margin-bottom: 15px;
+}
+
+.video video {
+  width: 100%; /* Makes the video responsive */
+  max-width: 700px; /* Ensures the video doesn't stretch beyond a reasonable size */
+  border-radius: 10px; /* Adds slight rounding for aesthetics */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Adds a shadow for better visibility */
+}
+
 
 
 
@@ -849,5 +872,21 @@ header {
     .footer-disclaimer {
       font-size: 14px; /* Increase font size for better readability on smaller screens */
     }
+
+    .video {
+      padding: 3rem;
+  }
+
+  .video h2 {
+      font-size: 25px;
+  }
+
+  .video video {
+      max-width: auto; /* Restricts video size on larger screens */
+      
+  }
 }
+
+
+
 
