@@ -1,6 +1,6 @@
 /* General reset */
 * {
-  margin: 0;
+margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -16,7 +16,7 @@ a {
   font-family: "Roboto", sans-serif;
 }
 header {
-  background-color: #333; 
+  background-color: #333;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
@@ -75,27 +75,25 @@ header {
 .facebook-link {
   display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .facebook-link a {
   text-align: center;
   text-decoration: none;
-  color: #1877f2; 
-  font-size: 1rem; 
-  padding: 8px; 
-  background-color: #e8f4ff; 
+  color: #1877f2;
+  font-size: 1rem;
+  padding: 8px;
+  background-color: #e8f4ff;
   border-radius: 20%;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .facebook-link a:hover {
-  background-color: #d6e9ff; 
+  background-color: #d6e9ff;
   transform: scale(1.1);
-   
-  
 }
-
+/* Reference: I was not able to create the mobile toggle so got help w3schools and remodified it based on my requirement with AI */
 /* Mobile menu toggle */
 #menu-toggle {
   display: none;
@@ -106,7 +104,6 @@ header {
   cursor: pointer;
   display: block;
 }
-
 
 #menu-toggle:checked ~ .nav-links {
   display: flex;
@@ -158,7 +155,7 @@ header {
 
 .hero a:hover {
   background-color: #fff;
-  transform: scale(1.1); 
+  transform: scale(1.1);
   transition: all 0.3s ease;
 }
 
@@ -168,18 +165,6 @@ header {
   border-radius: 15px;
 }
 
-.video {
-  padding: 3rem;
-}
-
-.video h2 {
-  font-size: 25px;
-}
-
-.video video {
-  max-width: auto; /* Restricts video size on larger screens */
-  
-}
 /* Services */
 .services {
   display: flex;
@@ -203,41 +188,40 @@ header {
 /* Services section */
 .service-cards {
   display: flex;
-  flex-direction: column; 
-  gap: 1.5rem; 
-  padding: 1rem; 
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem;
 }
 
 .card {
-  background-color: #f9f9f9; 
-  border-radius: 8px; 
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-  padding: 1rem; 
-  text-align: center; 
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  text-align: center;
 }
 
 .card img {
-  width: 100%; 
+  width: 100%;
   height: auto;
-  border-radius: 8px 8px 0 0; 
+  border-radius: 8px 8px 0 0;
 }
 
 .card h3 {
-  font-size: 1.2rem; 
+  font-size: 1.2rem;
   margin: 1rem 0 0.5rem;
-  color: #333; 
+  color: #333;
   transform: scale(1.1);
   transition: all 0.3s ease;
 }
 
 .card p {
-  font-size: 0.9rem; 
-  color: #666; 
-  line-height: 1.5; 
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.5;
   text-align: justify;
-  transform: scale(1.1); 
+  transform: scale(1.1);
   transition: all 0.3s ease;
-  
 }
 .services a {
   display: inline-block;
@@ -254,7 +238,7 @@ header {
 .services a:hover {
   background-color: #333;
   color: #fff;
-  transform: scale(1.1); 
+  transform: scale(1.1);
   transition: all 0.3s ease;
 }
 
@@ -269,13 +253,11 @@ header {
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
-/* Hover effect for the section */
 .table:hover {
   transform: scale(1.02);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Styling the heading */
 .table h2 {
   margin-bottom: 20px;
   font-size: 24px;
@@ -283,14 +265,12 @@ header {
   text-transform: uppercase;
 }
 
-/* Styling the table */
 .table table {
   width: 100%;
   border-collapse: collapse;
   font-size: 16px;
 }
 
-/* Styling table headers */
 .table th {
   background-color: #333;
   color: #fff;
@@ -300,13 +280,11 @@ header {
   font-weight: bold;
 }
 
-/* Styling table rows */
 .table td {
   padding: 12px;
   border-bottom: 1px solid #ddd;
 }
 
-/* Adding hover effects to rows */
 .table tr:hover {
   background-color: #f0f0f0;
   transition: background-color 0.3s ease;
@@ -314,28 +292,28 @@ header {
 /* About */
 .about {
   display: flex;
-  flex-direction: column; 
-  gap: 1.5rem; 
-  padding: 1.5rem; 
-  background-color: #f9f9f9; 
-  text-align: center; 
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  background-color: #f9f9f9;
+  text-align: center;
 }
 
 .about-content {
-  order: 2; 
+  order: 2;
 }
 
 .about-content h2 {
-  font-size: 1.5rem; 
-  margin-bottom: 1rem; 
-  color: #333; 
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
 }
 
 .about-content p {
-  font-size: 1rem; 
-  color: #555; 
-  line-height: 1.6; 
-  margin-bottom: 1rem; 
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1rem;
 }
 .about-content a {
   display: inline-block;
@@ -354,10 +332,10 @@ header {
   color: #fff;
 }
 .about-image img {
-  width: auto; 
+  width: auto;
   height: auto;
-  border-radius: px; 
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  border-radius: px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 /* About page */
 .about-page {
@@ -369,8 +347,8 @@ header {
 /* About Us Section */
 .about-us {
   display: flex;
-  flex-direction: column; 
-  gap: 1.5rem; 
+  flex-direction: column;
+  gap: 1.5rem;
   text-align: center;
 }
 
@@ -387,27 +365,27 @@ header {
 }
 
 .about-us-image img {
-    width: 100%; 
-    max-width: 300px; 
-    height: auto; 
-    border-radius: 8px; 
-    margin: 0 auto; 
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  margin: 0 auto;
 }
 
 /* Feedback Section */
 .feedback-section {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   gap: 1.5rem;
   text-align: center;
 }
 
 .feedback-image img {
-    width: 100%; 
-    max-width: 300px; 
-    height: auto; 
-    border-radius: 8px;
-    margin: 0 auto; 
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  margin: 0 auto;
 }
 .feedback-form {
   text-align: center;
@@ -429,11 +407,11 @@ header {
   flex-direction: column;
   gap: 1rem;
   max-width: 400px;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 .feedback-form label {
-    font-family: "Roboto", sans-serif;;
+  font-family: "Roboto", sans-serif;
   text-align: left;
   font-size: 0.9rem;
   color: #555;
@@ -441,7 +419,7 @@ header {
 
 .feedback-form input,
 .feedback-form textarea {
-    font-family: "Roboto", sans-serif;;
+  font-family: "Roboto", sans-serif;
   width: 100%;
   padding: 0.8rem;
   font-size: 1rem;
@@ -466,150 +444,156 @@ header {
 
 /* Testiomials */
 .testimonials {
-  padding: 2rem 1rem; 
-  background-color: #f9f9f9; 
+  padding: 2rem 1rem;
+  background-color: #f9f9f9;
   text-align: center;
 }
 
 .testimonials h2 {
-  font-size: 1.5rem; 
-  color: #333; 
+  font-size: 1.5rem;
+  color: #333;
   margin-bottom: 1.5rem;
 }
 
 .testimonial-cards {
   display: flex;
-  flex-direction: column; 
-  gap: 1.5rem; 
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .testimonial-card {
-  background-color: #fff; 
-  border-radius: 8px; 
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-  padding: 1.5rem; 
-  text-align: left; 
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  text-align: left;
 }
 
 .testimonial-card p {
-  font-size: 1rem; 
+  font-size: 1rem;
   color: #555;
-  line-height: 1.6; 
+  line-height: 1.6;
   margin-bottom: 1rem;
 }
 
 .testimonial-card h4 {
-  font-size: 0.9rem; 
-  color: #333; 
+  font-size: 0.9rem;
+  color: #333;
   font-weight: bold;
-  text-align: right; 
+  text-align: right;
 }
 /* Contact page */
 .contact-page {
-    padding: 1.5rem;
-    background-color: #f9f9f9;
-    color: #333;
+  padding: 1.5rem;
+  background-color: #f9f9f9;
+  color: #333;
 }
 
 /* Contact Info Section */
 .contact-info {
-    text-align: center;
-    margin-bottom: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 .contact-info h2 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
 .contact-info p {
-    font-size: 1rem;
-    margin-bottom: 1.5rem;
-    line-height: 1.6;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
 }
 
 .contact-info .address {
-    font-size: 1rem;
-    margin-bottom: 1rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
 }
 .address h3 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
 }
 .contact-info .map iframe {
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Contact Form Section */
 .contact-form {
-    text-align: center;
+  text-align: center;
 }
 
 .contact-form h2 {
-    font-size: 1.5rem;
-    margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .contact-form form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    max-width: 400px;
-    margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 .contact-form label {
-    font-family: "Roboto", sans-serif;
-    text-align: left;
-    font-size: 0.9rem;
-    color: #555;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  font-size: 0.9rem;
+  color: #555;
 }
 
-.contact-form input, 
+.contact-form input,
 .contact-form textarea {
-    width: 100%;
-    padding: 0.8rem;
-    font-size: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
 }
 
 .contact-form button {
-    padding: 0.8rem;
-    font-size: 1rem;
-    color: #333;
-    background-color: goldenrod;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  padding: 0.8rem;
+  font-size: 1rem;
+  color: #333;
+  background-color: goldenrod;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .contact-form button:hover {
-    background-color: #333;
-    color: goldenrod;
+  background-color: #333;
+  color: goldenrod;
 }
 .footer {
-  background-color: #333; /* Dark background for footer */
-  color: #fff; /* White text for contrast */
+  background-color: #333;
+  color: #fff;
   padding: 20px 0;
 }
 
 .footer-container {
   max-width: 1200px;
-  margin: 0 auto; /* Center the footer content */
+  margin: 0 auto;
   display: flex;
-  flex-wrap: wrap; /* Allow wrapping for smaller screens */
-  justify-content: space-between; /* Space between sections */
-  align-items: center; /* Align items at the top */
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer-section {
-  flex: 1 1 30%; /* Flexible width for each section */
-  margin: 10px; /* Space between sections */
-  text-align: center; /* Center the text */
+  flex: 1 1 30%;
+  margin: 10px;
+  text-align: center;
+}
+
+.footer-container div a {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-section h4 {
@@ -617,16 +601,16 @@ header {
   margin-bottom: 10px;
 }
 
-.footer-section a {
+.footer-container div a {
   color: #fff;
   text-decoration: none;
   margin: 5px 0;
-  display: inline-block; /* Ensure links stack properly */
-  transition: color 0.3s; /* Smooth hover effect */
+  display: inline-block;
+  transition: color 0.3s;
 }
 
 .footer-section a:hover {
-  color: #00bcd4; /* Light blue hover effect */
+  color: goldenrod;
 }
 
 .footer-section p {
@@ -636,15 +620,14 @@ header {
 
 /* Disclaimer Section */
 .footer-disclaimer {
-  background-color: #222; /* Slightly darker background for separation */
+  background-color: #222;
   padding: 10px;
   text-align: center;
   font-size: 12px;
-  color: #ccc; /* Light gray for text contrast */
+  color: #ccc;
   margin-top: 20px;
-  line-height: 1.5; /* Better readability */
+  line-height: 1.5;
 }
-
 
 /* Desktop styles */
 @media (min-width: 768px) {
@@ -665,18 +648,18 @@ header {
   }
 
   .facebook-link {
-    justify-content: flex-end; 
+    justify-content: flex-end;
   }
 
   .facebook-link a {
-    font-size: 2rem; 
-    padding: 10px; 
+    font-size: 2rem;
+    padding: 10px;
     background-color: #f0f7ff;
   }
 
   .facebook-link a:hover {
-    background-color: #e0efff; 
-    transform: scale(1.15); 
+    background-color: #e0efff;
+    transform: scale(1.15);
   }
   /* Hero Section */
   .hero {
@@ -702,114 +685,72 @@ header {
     max-width: 500px;
   }
 
-  /*  Video Section */
-
-  .video {
-    display: flex; /* Activates flexbox */
-    flex-direction: column; /* Arranges content vertically */
-    align-items: center; /* Centers the content horizontally */
-    justify-content: center; /* Centers the content vertically */
-    padding: 30px; /* Adds padding inside the section */
-    margin: 0 auto; /* Centers the section on the page */
-    max-width: 800px; /* Limits the width for proper alignment */
-    transition: all 0.3s ease; /* Adds a transition effect for smooth changes */
-  }
-  
-  .video:hover {
-    transform: scale(1.05); /* Slight zoom effect when hovering */
-  }
-  
-  .video h2 {
-    font-family: "Josefin Sans", sans-serif;  
-    font-size: 24px;
-    color: #000000; /* Adjust the heading color */
-    margin-bottom: 20px; /* Adds space below the heading */
-    transition: color 0.3s ease; /* Smooth color change transition */
-  }
-  
-  .video h2:hover {
-    color: #007BFF; /* Changes color on hover */
-  }
-  
-  .video video {
-    width: 100%; /* Makes the video responsive */
-    max-width: 700px; /* Ensures the video doesn't stretch beyond a reasonable size */
-    border-radius: 10px; /* Adds slight rounding for aesthetics */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Adds a shadow for better visibility */
-    transition: transform 0.3s ease; /* Adds a smooth transition effect */
-  }
-  
-  .video video:hover {
-    transform: scale(1.05); /* Slight zoom effect on hover for video */
-  }
-  
-
   /* Services section */
   .services h2 {
     font-size: 2rem;
   }
   .service-cards {
-    flex-direction: row; 
-    flex-wrap: wrap; 
-    justify-content: space-between; 
-    gap: 2rem; 
-    padding: 2rem; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 2rem;
   }
 
   .card {
-    flex: 1 1 calc(33.333% - 2rem); 
-    max-width: calc(33.333% - 2rem); 
+    flex: 1 1 calc(33.333% - 2rem);
+    max-width: calc(33.333% - 2rem);
   }
 
   .card img {
-    height: 200px; 
-    object-fit: cover; 
+    height: 200px;
+    object-fit: cover;
   }
 
   .card h3 {
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
   }
 
   .card p {
     text-align: justify;
-    font-size: 1rem; 
+    font-size: 1rem;
   }
   /* about */
   .about {
-    flex-direction: row; 
-    align-items: center; 
-    text-align: left; 
-    gap: 2rem; 
-    padding: 2rem 4rem; 
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    gap: 2rem;
+    padding: 2rem 4rem;
   }
 
   .about-content {
-    order: 1; 
-    flex: 1; 
+    order: 1;
+    flex: 1;
   }
 
   .about-content h2 {
-    font-size: 2rem; 
+    font-size: 2rem;
   }
 
   .about-content p {
-    font-size: 1.1rem; 
+    font-size: 1.1rem;
   }
 
   .about-image {
-    flex: 1; 
-    text-align: center; 
+    flex: 1;
+    text-align: center;
   }
 
   .about-image img {
-    max-width: 100%; 
+    max-width: 100%;
     height: auto;
-    border-radius: 12px; 
+    border-radius: 12px;
   }
 
   /* About page */
   .about-us {
-    flex-direction: row; 
+    flex-direction: row;
     gap: 2rem;
     text-align: left;
     margin-bottom: 2rem;
@@ -832,12 +773,12 @@ header {
   }
 
   .about-us-image img {
-    max-width: 850px; 
-}
+    max-width: 850px;
+  }
 
   /* Feedback Section */
   .feedback-section {
-    flex-direction: row; 
+    flex-direction: row;
     gap: 2rem;
     margin-bottom: 2rem;
   }
@@ -860,10 +801,10 @@ header {
   }
 
   .feedback-image img {
-    max-width: 800px; 
-}
+    max-width: 800px;
+  }
   .feedback-form form {
-    max-width: none; 
+    max-width: none;
   }
 
   .feedback-form input,
@@ -877,205 +818,104 @@ header {
 
   /* testimonials */
   .testimonial-cards {
-    flex-direction: row; 
-    justify-content: space-between; 
-    gap: 2rem; 
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
   }
 
   .testimonial-card {
-    flex: 1 1 calc(33.333% - 2rem); 
-    max-width: calc(33.333% - 2rem); 
-    text-align: center; 
+    flex: 1 1 calc(33.333% - 2rem);
+    max-width: calc(33.333% - 2rem);
+    text-align: center;
   }
 
   .testimonials h2 {
-    font-size: 2rem; 
+    font-size: 2rem;
   }
 
   .testimonial-card p {
-    font-size: 1.1rem; 
+    font-size: 1.1rem;
   }
 
   .testimonial-card h4 {
-    font-size: 1rem; 
+    font-size: 1rem;
   }
   /* Contact page */
-    .contact-page {
-        padding: 2rem 4rem;
-    }
+  .contact-page {
+    padding: 2rem 4rem;
+  }
 
-    .contact-info {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        text-align: left;
-    }
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
 
-    .contact-info h2 {
-        font-size: 2rem;
-    }
+  .contact-info h2 {
+    font-size: 2rem;
+  }
 
-    .contact-info p, .contact-info .address {
-        font-size: 1.1rem;
-    }
+  .contact-info p,
+  .contact-info .address {
+    font-size: 1.1rem;
+  }
 
-    .contact-info .map {
-        flex: 1;
-        margin-left: 2rem;
-    }
+  .contact-info .map {
+    flex: 1;
+    margin-left: 2rem;
+  }
 
-    .contact-info .map iframe {
-        width: 100%;
-        height: 300px;
-    }
+  .contact-info .map iframe {
+    width: 100%;
+    height: 300px;
+  }
 
-    .contact-form {
-        text-align: left;
-    }
+  .contact-form {
+    text-align: left;
+  }
 
-    .contact-form h2 {
-        font-size: 2rem;
-        text-align: center;
-    }
+  .contact-form h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
 
-    .contact-form form {
-        max-width: 600px;
-    }
+  .contact-form form {
+    max-width: 600px;
+  }
 
-    .contact-form input, 
-    .contact-form textarea {
-        font-family: "Roboto", sans-serif;
-        font-size: 1.1rem;
-    }
+  .contact-form input,
+  .contact-form textarea {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.1rem;
+  }
 
-    .contact-form button {
-        font-size: 1.1rem;
-    }
+  .contact-form button {
+    font-size: 1.1rem;
+  }
 
-    .footer-container {
-      flex-direction: column; /* Stack sections vertically on smaller screens */
-      text-align: center; /* Center all text */
-    }
-  
-    .footer-section {
-      flex: 1 1 100%; /* Full width for each section */
-      margin-bottom: 20px; /* Add spacing between stacked sections */
-    }
-  
-    .footer-section a {
-      display: block; /* Stack links vertically */
-      margin: 5px 0; /* Add spacing between links */
-    }
-  
-    .footer-disclaimer {
-      font-size: 14px; /* Increase font size for better readability on smaller screens */
-    }
+  .footer-container {
+    flex-direction: row;
+    text-align: center;
+  }
 
-    .table {
+  .footer-container.footer-section {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+  }
+
+  .table {
     padding: 15px;
     margin: 10px auto;
-}
+  }
 
-.table table {
+  .table table {
     font-size: 14px;
-}
+  }
 
-.table h2 {
+  .table h2 {
     font-size: 20px;
+  }
 }
-}
-
-header {
-  padding: 10px 0;
-}
-
-header nav a {
-  font-size: 1rem;
-  margin: 0 10px;
-}
-
-.privacy-policy-container {
-  margin: 15px;
-  padding: 15px;
-}
-
-h1 {
-  font-size: 1.5rem;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  font-size: 0.9rem;
-}
-
-
-/* Footer Section Styling (Adding Privacy Policy Button) */
-.footer-container {
-display: flex;
-justify-content: space-between;
-padding: 20px;
-}
-
-.footer-section {
-flex: 1;
-}
-
-.footer-section a {
-display: block;
-margin: 5px 0;
-text-decoration: none;
-color: #fff;
-font-size: 0.9rem;
-}
-
-.footer-section a:hover {
-color: #3498db; /* Blue color on hover */
-}
-
-.footer-disclaimer {
-background-color: #34495e;
-color: white;
-padding: 10px;
-font-size: 0.9rem;
-text-align: center;
-}
-
-/* Button Styling for Footer Privacy Policy Link */
-.footer-disclaimer button {
-background-color: #3498db;
-color: white;
-border: none;
-padding: 10px 20px;
-font-size: 1rem;
-cursor: pointer;
-border-radius: 5px;
-transition: background-color 0.3s ease;
-margin-top: 10px;
-}
-
-.footer-disclaimer button:hover {
-background-color: #2980b9;
-}
-
-.footer-disclaimer button:focus {
-outline: none;
-}
-
-
-
-
-/* Flexbox alignment for better layout if needed */
-.table {
-display: flex;
-flex-direction: column;
-align-items: center;
-}
-
-
-
-
-
