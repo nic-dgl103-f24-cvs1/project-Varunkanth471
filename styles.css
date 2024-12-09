@@ -68,6 +68,8 @@ header {
 .nav-links a:hover {
   color: rgb(218, 165, 32);
   text-decoration: underline;
+  transform: scale(1.1); /* Slight zoom effect */
+  transition: all 0.3s ease;
 }
 
 .facebook-link {
@@ -89,7 +91,9 @@ header {
 
 .facebook-link a:hover {
   background-color: #d6e9ff; 
-  transform: scale(1.1); 
+  transform: scale(1.1);
+   
+  
 }
 
 /* Mobile menu toggle */
@@ -154,12 +158,27 @@ header {
 
 .hero a:hover {
   background-color: #fff;
+  transform: scale(1.1); 
+  transition: all 0.3s ease;
 }
 
 .hero-img img {
   width: 100%;
   max-width: 300px;
   border-radius: 15px;
+}
+
+.video {
+  padding: 3rem;
+}
+
+.video h2 {
+  font-size: 25px;
+}
+
+.video video {
+  max-width: auto; /* Restricts video size on larger screens */
+  
 }
 /* Services */
 .services {
@@ -207,6 +226,8 @@ header {
   font-size: 1.2rem; 
   margin: 1rem 0 0.5rem;
   color: #333; 
+  transform: scale(1.1);
+  transition: all 0.3s ease;
 }
 
 .card p {
@@ -214,6 +235,9 @@ header {
   color: #666; 
   line-height: 1.5; 
   text-align: justify;
+  transform: scale(1.1); 
+  transition: all 0.3s ease;
+  
 }
 .services a {
   display: inline-block;
@@ -230,6 +254,8 @@ header {
 .services a:hover {
   background-color: #333;
   color: #fff;
+  transform: scale(1.1); 
+  transition: all 0.3s ease;
 }
 
 .table {
@@ -328,9 +354,9 @@ header {
   color: #fff;
 }
 .about-image img {
-  width: 100%; 
+  width: auto; 
   height: auto;
-  border-radius: 8px; 
+  border-radius: px; 
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 /* About page */
@@ -619,29 +645,6 @@ header {
   line-height: 1.5; /* Better readability */
 }
 
-/*  Video Section */
-
-.video {
-  text-align: center; /* Centers the text and video within the section */
-  padding: 20px;
-  margin: 0 auto; /* Centers the section on the page */
-  max-width: 800px; /* Limits the width for proper alignment */
-}
-
-.video h2 {
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 24px;
-  color: #ffffff; /* Adjust the heading color */
-  margin-bottom: 15px;
-}
-
-.video video {
-  width: 100%; /* Makes the video responsive */
-  max-width: 700px; /* Ensures the video doesn't stretch beyond a reasonable size */
-  border-radius: 10px; /* Adds slight rounding for aesthetics */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Adds a shadow for better visibility */
-}
-
 
 /* Desktop styles */
 @media (min-width: 768px) {
@@ -698,6 +701,49 @@ header {
   .hero-img img {
     max-width: 500px;
   }
+
+  /*  Video Section */
+
+  .video {
+    display: flex; /* Activates flexbox */
+    flex-direction: column; /* Arranges content vertically */
+    align-items: center; /* Centers the content horizontally */
+    justify-content: center; /* Centers the content vertically */
+    padding: 30px; /* Adds padding inside the section */
+    margin: 0 auto; /* Centers the section on the page */
+    max-width: 800px; /* Limits the width for proper alignment */
+    transition: all 0.3s ease; /* Adds a transition effect for smooth changes */
+  }
+  
+  .video:hover {
+    transform: scale(1.05); /* Slight zoom effect when hovering */
+  }
+  
+  .video h2 {
+    font-family: "Josefin Sans", sans-serif;  
+    font-size: 24px;
+    color: #000000; /* Adjust the heading color */
+    margin-bottom: 20px; /* Adds space below the heading */
+    transition: color 0.3s ease; /* Smooth color change transition */
+  }
+  
+  .video h2:hover {
+    color: #007BFF; /* Changes color on hover */
+  }
+  
+  .video video {
+    width: 100%; /* Makes the video responsive */
+    max-width: 700px; /* Ensures the video doesn't stretch beyond a reasonable size */
+    border-radius: 10px; /* Adds slight rounding for aesthetics */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Adds a shadow for better visibility */
+    transition: transform 0.3s ease; /* Adds a smooth transition effect */
+  }
+  
+  .video video:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover for video */
+  }
+  
+
   /* Services section */
   .services h2 {
     font-size: 2rem;
@@ -926,21 +972,7 @@ header {
       font-size: 14px; /* Increase font size for better readability on smaller screens */
     }
 
-    .video {
-      padding: 3rem;
-  }
-
-  .video h2 {
-      font-size: 25px;
-  }
-
-  .video video {
-      max-width: auto; /* Restricts video size on larger screens */
-      
-  }
-
-
-  .table {
+    .table {
     padding: 15px;
     margin: 10px auto;
 }
@@ -953,6 +985,88 @@ header {
     font-size: 20px;
 }
 }
+
+header {
+  padding: 10px 0;
+}
+
+header nav a {
+  font-size: 1rem;
+  margin: 0 10px;
+}
+
+.privacy-policy-container {
+  margin: 15px;
+  padding: 15px;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
+
+/* Footer Section Styling (Adding Privacy Policy Button) */
+.footer-container {
+display: flex;
+justify-content: space-between;
+padding: 20px;
+}
+
+.footer-section {
+flex: 1;
+}
+
+.footer-section a {
+display: block;
+margin: 5px 0;
+text-decoration: none;
+color: #fff;
+font-size: 0.9rem;
+}
+
+.footer-section a:hover {
+color: #3498db; /* Blue color on hover */
+}
+
+.footer-disclaimer {
+background-color: #34495e;
+color: white;
+padding: 10px;
+font-size: 0.9rem;
+text-align: center;
+}
+
+/* Button Styling for Footer Privacy Policy Link */
+.footer-disclaimer button {
+background-color: #3498db;
+color: white;
+border: none;
+padding: 10px 20px;
+font-size: 1rem;
+cursor: pointer;
+border-radius: 5px;
+transition: background-color 0.3s ease;
+margin-top: 10px;
+}
+
+.footer-disclaimer button:hover {
+background-color: #2980b9;
+}
+
+.footer-disclaimer button:focus {
+outline: none;
+}
+
+
+
 
 /* Flexbox alignment for better layout if needed */
 .table {
