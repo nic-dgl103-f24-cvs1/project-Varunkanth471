@@ -69,7 +69,7 @@ header {
 .nav-links a:hover {
   color: rgb(218, 165, 32);
   text-decoration: underline;
-  transform: scale(1.1); /* Slight zoom effect */
+  transform: scale(1.1);
   transition: all 0.3s ease;
 }
 
@@ -87,7 +87,6 @@ header {
   padding: 8px;
   background-color: #e8f4ff;
   border-radius: 20%;
-  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .facebook-link a:hover {
@@ -136,7 +135,7 @@ header {
   height: 100%;
   object-fit: cover;
   z-index: -1; 
-  overlay: #333;
+
 }
 
 /* Content Styles */
@@ -190,6 +189,8 @@ header {
   color: #333;
   font-size: 1rem;
   margin-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 /* Services section */
 .service-cards {
@@ -217,17 +218,13 @@ header {
   font-size: 1.2rem;
   margin: 1rem 0 0.5rem;
   color: #333;
-  transform: scale(1.1);
-  transition: all 0.3s ease;
 }
 
 .card p {
-  font-size: 0.9rem;
-  color: #666;
+  font-size: 1rem;
+  color: #333;
   line-height: 1.5;
   text-align: justify;
-  transform: scale(1.1);
-  transition: all 0.3s ease;
 }
 
 .table {
@@ -322,7 +319,6 @@ header {
 .about-image img {
   width: auto;
   height: auto;
-  border-radius: px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 /* About page */
