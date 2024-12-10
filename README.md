@@ -52,40 +52,82 @@ You can easily browse the programs that are accessible.
 ### 5. Problems with Search Engine Optimization (SEO)  
 It is more difficult for prospective customers to locate Art Adventures online because the website is not search engine optimized.
 
-Look and Feel
--------------
+# Look and Feel
 
-Design Style:
+The following breakdown highlights the key design aspects of the website, pointing out areas of improvement and opportunities to enhance the user experience.
 
-Despite having a straightforward design, the website seems old.
-The majority of the colors in the palette are neutral tones, which are uninspired and uncreative.
-Minimal visuals and images deprive the site of the visually appealing element that one would anticipate from an art-focused website.
+---
 
+## Design Style
 
-Fonts:
+- **Current Situation:**
+  - Despite having a simple design, the website feels outdated and lacks a modern touch.
+  - The color palette mainly consists of neutral tones, which lack creativity and are uninspiring.
+  - Minimal use of visuals and images results in the website feeling less engaging and lacks the visual appeal that one would expect from an art-focused site.
 
-The simple fonts don't convey the originality and refinement that one would anticipate from a firm involving art.
-Inconsistent text alignment and hierarchy make it challenging to concentrate on important passages.
+- **Problems:**
+  - The overall design appears uninspired and does not reflect the creativity of an art-focused company.
+  - The lack of vibrant and creative elements fails to draw in users and showcase the company's artistic vision.
 
+---
 
-Getting around:
+## Fonts
 
-Although the navigation menu is simple, it is devoid of contemporary design features (such as dropdown menus and hover effects).
-Some links appear disorganized or cluttered, which may cause users to become confused.
+- **Current Situation:**
+  - The simple fonts used throughout the website do not convey the originality and sophistication expected from a company in the art industry.
+  - Text alignment and hierarchy are inconsistent, making it hard to focus on important sections of the page.
 
-Visual Components:
+- **Problems:**
+  - The lack of distinctive fonts makes the website feel generic and uninspired.
+  - Inconsistent text styles and improper alignment lead to a poor reading experience, especially in more important sections.
 
-Inadequate usage of excellent photos and graphics that highlight the company's products.
-Design components including captivating headers, animations, and icons are lacking.
+---
 
-Responsiveness:
+## Getting Around
 
-It appears that the website is not responsive to smaller screens or devices. The design seems awkward and unresponsive on mobile devices.
+- **Current Situation:**
+  - The website's navigation menu is functional but lacks modern design features such as dropdown menus or hover effects.
+  - Some links appear disorganized and cluttered, which can cause confusion among users.
 
-Establishing a brand:
+- **Problems:**
+  - The navigation feels outdated and could benefit from enhancements like dropdown menus for a cleaner, more streamlined experience.
+  - Disorganized or unclear links may create friction for users trying to navigate the site.
 
-Art Adventures' distinctive character and aesthetic appeal are not adequately communicated on the website.
-Storytelling and emotionally engaging the audience are not given much attention.
+---
+
+## Visual Components
+
+- **Current Situation:**
+  - The website does not effectively use high-quality images or graphics that showcase the company's products or services.
+  - Key design components such as captivating headers, animations, and icons are missing.
+
+- **Problems:**
+  - The lack of compelling images and graphic elements detracts from the potential visual appeal of the site.
+  - Missing design elements such as animations and icons prevent the website from feeling dynamic or visually engaging.
+
+---
+
+## Responsiveness
+
+- **Current Situation:**
+  - The website does not appear to be fully responsive, especially on smaller screens or mobile devices. 
+  - The design feels awkward and unresponsive when viewed on mobile, making for a poor user experience.
+
+- **Problems:**
+  - The lack of responsiveness on smaller devices makes the website difficult to use on smartphones and tablets.
+  - The site’s design does not adapt properly, resulting in a frustrating experience for mobile users.
+
+---
+
+## Establishing a Brand
+
+- **Current Situation:**
+  - Art Adventures’ unique character and artistic appeal are not well communicated through the website design.
+  - The website does not focus on storytelling or emotionally engaging visitors.
+
+- **Problems:**
+  - The website does not reflect the artistic identity of Art Adventures or tell a compelling story to draw in potential customers.
+  - Emotional engagement through design and content is minimal, preventing the website from building a strong connection with visitors.
 
 Evaluation of Art Adventures's Current Website
 ----------------------------------------------
