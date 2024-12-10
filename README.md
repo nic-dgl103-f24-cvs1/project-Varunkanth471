@@ -160,53 +160,20 @@ The site has a generic vibe because of the typefaces' simplicity and default sty
 
 # Page Overview: Index.html
 
-## 1. **Header Section**
-   - **Goal:** The website's logo, navigation menu, and mobile-responsive hamburger menu are all located in the header. In addition to a link to Facebook, it has links to important pages including Home, Services, About, and Contact.
-   - **Features:** 
-     - Social networking link (Facebook)
-     - Mobile-friendly menu toggle
-     - Navigation links (Home, Services, About, Contact)
-     - Logo link (links to Home page)
+The homepage of the "Art Adventures" website, which features art workshops and services, is the index.html page.
 
-## 2. **Hero Section**
-   - **Goal:** The website's hero section greets visitors with a dynamic video backdrop and the phrase "Unleash Your Inner Artist." It has a button that invites users to explore workshops.
-   - **Features:** 
-     - Full-screen video background
-     - Heading with the text "Unleash Your Inner Artist"
-     - Brief description encouraging users to explore workshops
-     - A call-to-action button linking to the Services page
+## Important Parts:
 
-## 3. **Services Area**
-   - **Goal:** This area highlights the site's main services with succinct explanations and costs, while also showcasing the numerous art workshops and classes that are available.
-   - **Features:** 
-     - Service cards containing images, service titles, descriptions, and costs
-     - "Book Now" button for easy service booking
-     - A button linking to the Services page to view additional services
-
-## 4. **Testimonials Section**
-   - **Goal:** Presents client endorsements to establish credibility and trust by disseminating gratifying comments from prior attendees.
-   - **Features:** 
-     - Multiple testimonial cards featuring positive feedback from satisfied clients
-     - Social proof to highlight the value and quality of the services
-
-## 5. **Footer Section**
-   - **Goal:** Offers contact details and extra links, such as social media accounts and links to the website's navigation. It has a copyright notice as well.
-   - **Features:** 
-     - Copyright statement
-     - Social media links (Facebook, Twitter, Instagram)
-     - Quick links to other pages (Services, About, Contact)
-     - Notice about the website's fictional nature for educational purposes
-       
-## 6. **Disclaimer Section**
-   - **Goal:** A disclaimer in the footer to let users know that the website is a work of fiction intended for educational purposes and is not a real company.
-   - **Features:** 
-     - Text stating that the website is a class project and that no actual business owner has approved the images or text.
+- **Header**: Includes the website's logo, navigation buttons (Home, Services, About, Contact), and a Facebook icon for convenient social media access.
+- **Hero Section**: A call-to-action button on the autoplaying video invites viewers to explore the workshops.
+- **Services Section**: Lists a number of highlighted classes along with their costs, schedules, and descriptions. A "Book Now" button makes class reservations 
+                        simple.
+- **Testimonials Section**: Displays client testimonials, providing information about the pleasant experiences of program participants.
+- **Footer**: Provides quick access to other pages, social networking links, copyright details, and a disclaimer explaining the website's fictional origin.
 
 # Page Overview: Service.html
 
-Information on several art-related classes and services is available on the `service.html` page. It contains a section outlining the different kinds of lessons that are offered, including special afterschool programs, weekly homeschool sessions, and creative workshops. A card-format display of each service includes the class name, target age group, schedule, cost, and links to further information or to make a reservation.
-
-The page also includes a table that lists forthcoming classes along with their dates, costs, and descriptions. This makes it easy for users to locate and sign up for upcoming classes that interest them.
+## The page also includes a table that lists forthcoming classes along with their dates, costs, and descriptions. This makes it easy for users to locate and sign up for upcoming classes that interest them.
 
 ## Important Sections:
 
@@ -215,8 +182,6 @@ The page also includes a table that lists forthcoming classes along with their d
 - **Social Media Links**: Facebook, Instagram, and Twitter icons that let users interact with and follow the service's social media accounts.
 - **Footer**: Contains a disclaimer, copyright details, and fast access to other pages (Services, About, Contact).
 
-The purpose of this page is to encourage users to explore and sign up for forthcoming art classes by providing an easy-to-use summary of the events and programs that are offered.
- 
 
 
 
