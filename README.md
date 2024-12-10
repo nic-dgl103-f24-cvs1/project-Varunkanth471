@@ -202,6 +202,21 @@ The site has a generic vibe because of the typefaces' simplicity and default sty
    - **Features:** 
      - Text stating that the website is a class project and that no actual business owner has approved the images or text.
 
+# Page Overview: Service.html
+
+Information on several art-related classes and services is available on the `service.html` page. It contains a section outlining the different kinds of lessons that are offered, including special afterschool programs, weekly homeschool sessions, and creative workshops. A card-format display of each service includes the class name, target age group, schedule, cost, and links to further information or to make a reservation.
+
+The page also includes a table that lists forthcoming classes along with their dates, costs, and descriptions. This makes it easy for users to locate and sign up for upcoming classes that interest them.
+
+## Important Sections:
+
+- **Service Cards**: Shows each class along with its name, description, cost, and reservation choices.
+- **Upcoming Classes Table**: An organized summary of forthcoming classes, including start dates, descriptions, and costs.
+- **Social Media Links**: Facebook, Instagram, and Twitter icons that let users interact with and follow the service's social media accounts.
+- **Footer**: Contains a disclaimer, copyright details, and fast access to other pages (Services, About, Contact).
+
+The purpose of this page is to encourage users to explore and sign up for forthcoming art classes by providing an easy-to-use summary of the events and programs that are offered.
+ 
 
 
 
