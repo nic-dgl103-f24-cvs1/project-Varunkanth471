@@ -158,11 +158,49 @@ The site has a generic vibe because of the typefaces' simplicity and default sty
 - Some sections have irregular font sizes and spacing, which makes them harder to read.
 
 
+# Page Overview: Index.html
 
+## 1. **Header Section**
+   - **Goal:** The website's logo, navigation menu, and mobile-responsive hamburger menu are all located in the header. In addition to a link to Facebook, it has links to important pages including Home, Services, About, and Contact.
+   - **Features:** 
+     - Social networking link (Facebook)
+     - Mobile-friendly menu toggle
+     - Navigation links (Home, Services, About, Contact)
+     - Logo link (links to Home page)
 
+## 2. **Hero Section**
+   - **Goal:** The website's hero section greets visitors with a dynamic video backdrop and the phrase "Unleash Your Inner Artist." It has a button that invites users to explore workshops.
+   - **Features:** 
+     - Full-screen video background
+     - Heading with the text "Unleash Your Inner Artist"
+     - Brief description encouraging users to explore workshops
+     - A call-to-action button linking to the Services page
 
+## 3. **Services Area**
+   - **Goal:** This area highlights the site's main services with succinct explanations and costs, while also showcasing the numerous art workshops and classes that are available.
+   - **Features:** 
+     - Service cards containing images, service titles, descriptions, and costs
+     - "Book Now" button for easy service booking
+     - A button linking to the Services page to view additional services
 
+## 4. **Testimonials Section**
+   - **Goal:** Presents client endorsements to establish credibility and trust by disseminating gratifying comments from prior attendees.
+   - **Features:** 
+     - Multiple testimonial cards featuring positive feedback from satisfied clients
+     - Social proof to highlight the value and quality of the services
 
+## 5. **Footer Section**
+   - **Goal:** Offers contact details and extra links, such as social media accounts and links to the website's navigation. It has a copyright notice as well.
+   - **Features:** 
+     - Copyright statement
+     - Social media links (Facebook, Twitter, Instagram)
+     - Quick links to other pages (Services, About, Contact)
+     - Notice about the website's fictional nature for educational purposes
+       
+## 6. **Disclaimer Section**
+   - **Goal:** A disclaimer in the footer to let users know that the website is a work of fiction intended for educational purposes and is not a real company.
+   - **Features:** 
+     - Text stating that the website is a class project and that no actual business owner has approved the images or text.
 
 
 
