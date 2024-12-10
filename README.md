@@ -52,10 +52,68 @@ You can easily browse the programs that are accessible.
 ### 5. Problems with Search Engine Optimization (SEO)  
 It is more difficult for prospective customers to locate Art Adventures online because the website is not search engine optimized.
 
-  
+Look and Feel
+-------------
+
+Design Style:
+
+Despite having a straightforward design, the website seems old.
+The majority of the colors in the palette are neutral tones, which are uninspired and uncreative.
+Minimal visuals and images deprive the site of the visually appealing element that one would anticipate from an art-focused website.
 
 
+Fonts:
 
+The simple fonts don't convey the originality and refinement that one would anticipate from a firm involving art.
+Inconsistent text alignment and hierarchy make it challenging to concentrate on important passages.
+
+
+Getting around:
+
+Although the navigation menu is simple, it is devoid of contemporary design features (such as dropdown menus and hover effects).
+Some links appear disorganized or cluttered, which may cause users to become confused.
+
+Visual Components:
+
+Inadequate usage of excellent photos and graphics that highlight the company's products.
+Design components including captivating headers, animations, and icons are lacking.
+
+Responsiveness:
+
+It appears that the website is not responsive to smaller screens or devices. The design seems awkward and unresponsive on mobile devices.
+
+Establishing a brand:
+
+Art Adventures' distinctive character and aesthetic appeal are not adequately communicated on the website.
+Storytelling and emotionally engaging the audience are not given much attention.
+
+Evaluation of Art Adventures's Current Website
+----------------------------------------------
+
+## Current Colours
+The website's color scheme is subdued and neutral, with white and light grays taking center stage. Headings and text occasionally employ darker colors (black or navy). 
+
+### Problems:
+- The website feels drab and uninspired due to the absence of accent colors.
+- The color scheme lacks enthusiasm and inventiveness, two qualities that are essential for attracting new customers.
+
+# Images
+
+## Current Situation
+The website's visual attractiveness is limited by the small number of photographs it contains. The current photos are generic and do not adequately represent the offers, which include events, workshops, and artwork.
+
+### Problems:
+- Insufficient use of visual storytelling to capture the spirit of Art Adventures' offerings.
+- The lack of high resolution in the photographs takes away from the site's polished appearance.
+
+# Fonts
+
+## Available Fonts
+The site has a generic vibe because of the typefaces' simplicity and default style, which is probably Arial or another similar sans-serif. Font weight and style aren't varied enough to provide a visual hierarchy.
+
+### Problems:
+- The typography is uninspired and does not reflect the company's creative spirit.
+- Some sections have irregular font sizes and spacing, which makes them harder to read.
 
 
 
