@@ -34,7 +34,7 @@ Overall Message
 
 Through approachable and entertaining programs for people of all ages, Art Adventures is committed to encouraging creativity and artistic expression.
 
-## Page Overview: Index.html
+# Page Overview: Index.html
 
 The homepage of the "Art Adventures" website, which features art workshops and services, is the index.html page.
 
