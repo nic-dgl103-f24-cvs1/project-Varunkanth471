@@ -34,6 +34,18 @@ Overall Message
 
 Through approachable and entertaining programs for people of all ages, Art Adventures is committed to encouraging creativity and artistic expression.
 
+## Design components including fonts, colors, photos, responsiveness, accessibility, and more, this lists the main modifications made to the website in comparison to its prior iteration. This will make it easier to comprehend the enhancements made to the redesign.
+
+### 1. **Font and Typography Changes**
+
+   - **Prior Font**: A common sans-serif font was utilized on the prior website.
+   - **New Font**: Changed to a more contemporary typeface for improved legibility and visual appeal.
+     - **Primary Font**: sans-serif Roboto.
+     - **Secondary Font**: sans-serif Open Sans.
+   - For better legibility, the font size and line height have been changed.
+   - In order to establish visual hierarchy, font weights were added for headings and body content.
+
+
 # Page Overview: Index.html
 
 The homepage of the "Art Adventures" website, which features art workshops and services, is the index.html page.
